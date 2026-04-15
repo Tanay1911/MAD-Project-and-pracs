@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Chat theme colors (WhatsApp-inspired but not identical) -->
+    <color name="chat_bg_top">#D9F0E7</color>
+    <color name="chat_bg_bottom">#FDFDFD</color>
+    <color name="chat_accent">#0B8F7B</color>
+    <color name="chat_accent_dark">#066F5E</color>
+    <color name="chat_bubble_in">#FFFFFF</color>
+    <color name="chat_bubble_out">#D2F8D2</color>
+    <color name="chat_time_text">#8E8E93</color>
+</resources>

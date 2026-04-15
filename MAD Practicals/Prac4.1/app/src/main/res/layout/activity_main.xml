@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Website URL"
+        android:text="https://textstorage.js.org" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Website" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Location"
+        android:text="Amtics" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Location" />
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Text to Share"
+        android:text="Hello by Tanay" />
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Text" />
+</LinearLayout>
